@@ -1,0 +1,15 @@
+{
+  "name": "text-splitter",
+  "version": "1.0.0",
+  "description": "A crude way to split text into paragraphs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . TextSplitter --platform darwin --icon=icons/mac/logo.svg.icns --overwrite"
+  },
+  "author": "Ben Lambert @ Cloud Academy",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
+}
